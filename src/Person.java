@@ -1,6 +1,6 @@
 public class Person {
     private String name;
-    private String designation;
+    private  String designation;
 
     public Person(){}
 
@@ -16,9 +16,11 @@ public class Person {
     public String learn(){
         return name + " is learning ";
     }
+
     public String Walk(){
         return name + " is walking ";
     }
+
     public String eat(){
         return name + " is eating ";
     }
